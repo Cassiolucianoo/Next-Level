@@ -4,8 +4,7 @@ import App from './App';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<h1>Ola mundo 2</h1>,
+  <App />,
   document.getElementById('root')
 );
