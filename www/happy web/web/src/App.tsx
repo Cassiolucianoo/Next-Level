@@ -10,14 +10,24 @@ function App() {
   return (
     <div id="page-landing">
        <div className="content-wrapper">
-          <img src = {logoImg} alt="Happy"/>
+            <img src = {logoImg} alt="Happy"/>
+      
+
+            <main> 
+              <h1>Leve felicidade para o mundo</h1>
+              <p>Visite orfanatos e mude o dia de muitas crianças.</p>
+            </main>
+          
+            <div className = "location">
+              <strong>são paulo</strong>
+              <span>SP\Capital</span>
+            </div>
+
+            <a href="" className="enter-app">
+              {">"}
+            </a>
        </div>
-          <main> 
-            <h1>Leve felicidade para o mundo</h1>
-            <p>Visite orfanatos e mude o dia de muitas crianças.</p>
-          </main>
     </div>
   );
 }
-
 export default App;
