@@ -9,10 +9,12 @@ function Routes(){
 
 return(
     <BrowserRouter>
-    <Route path="/" component = {Landing}/>
+    <Switch>
+    <Route path="/" exact component = {Landing}/>
     <Route path="/app" component = {OrphanagesMap}/>
+    </Switch>
     </BrowserRouter>
+    
 );
 }
-
 export default Routes;
