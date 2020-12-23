@@ -1,5 +1,5 @@
 import React from 'react';
-import mapMarkerImg from '../images/map-marker.svg';
+import mapMarkerImg from '../images/Local.svg';
 import {Link} from 'react-router-dom';
 import{FiPlus}from'react-icons/fi';
 
