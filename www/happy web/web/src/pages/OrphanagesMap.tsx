@@ -3,6 +3,8 @@ import mapMarkerImg from '../images/Local.svg';
 import {Link} from 'react-router-dom';
 import{FiPlus}from'react-icons/fi';
 
+import '../styles/pages/orphanages-map.css';
+
 function OrphanagesMap(){
     return (
         <div id = "page-map">
@@ -20,6 +22,7 @@ function OrphanagesMap(){
             </aside>
             <div></div> 
             <Link to="/app" className="create-orphanage">
+                <FiPlus size= {32} color="#FFF"/>
 
             </Link>
         </div>
