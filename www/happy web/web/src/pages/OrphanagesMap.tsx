@@ -17,7 +17,7 @@ function OrphanagesMap(){
                 </header>
                 <footer>
                     <strong>São paulo</strong>
-                    <span>Sp</span>
+                    <span> Sp</span>
                 </footer>
             </aside>
             <div></div> 
