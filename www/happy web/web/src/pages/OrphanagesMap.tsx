@@ -1,7 +1,9 @@
 import React from 'react';
-import mapMarkerImg from '../images/map-marker.svg';
+import mapMarkerImg from '../images/Local.svg';
 import {Link} from 'react-router-dom';
 import{FiPlus}from'react-icons/fi';
+
+import '../styles/pages/orphanages-map.css';
 
 function OrphanagesMap(){
     return (
@@ -15,11 +17,12 @@ function OrphanagesMap(){
                 </header>
                 <footer>
                     <strong>São paulo</strong>
-                    <span>Sp</span>
+                    <span> Sp</span>
                 </footer>
             </aside>
             <div></div> 
             <Link to="/app" className="create-orphanage">
+                <FiPlus size= {32} color="#FFF"/>
 
             </Link>
         </div>
