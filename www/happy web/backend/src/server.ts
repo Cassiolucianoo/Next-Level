@@ -1,4 +1,8 @@
 import express from 'express';
+
+//importando a iniciallização do database
+import './database/connection';
+
 const app = express();
 app.use(express.json());
 
